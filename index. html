@@ -1,50 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content=>
-        <meta name="author" content=>
-        <title>Trivia Game</title>
-        
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada|Quicksand">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    </head>
-    <body>
-        <div class="container">
-            <h1>Trivia Game</h1>
-            
-            
-            <div class="page">
-                <h2>Directions:</h2>
-                
-                <p>5 questions.</p>
-                <p>How many will you get wrong, loser ?</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>trivia games</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+    <div class="container">
 
-                <div class="page_next" id="button_start">Start</div>
-            </div>
-            
-            <div class="page" id="quizForm">
-                <div id="question"></div>
-                <div class="container_fixed">
-                    <div id="timer"></div>
-                </div>
-                <div id="button_submit">Submit</div>
-            </div>
-            
-        
-            <div class="page">
-                <h2>Results:</h2>
-                <p>You got <span id="numCorrectAnswers"></span> out of <span id="numQuestions"></span> questions correct!</p>
+    <div class="jumbotron">
+<h1>welcome to trivia game</h1>
+<p>Trivia game with questions and a timer.  How many will you get wrong loser?</p>
+<button class="btn btn-primary">Test</button>
+    </div>
+    <h2 i="time"></h2>
+    <div id="game"></div>
 
-                <div class="page_next" id="button_restart">Restart</div>
-            </div>
-        </div>
 
-        <script type="text/javascript" src="assets/javascript/questions.js"></script>
-        <script type="text/javascript" src="assets/javascript/app.js"></script>
-    </body>
+<script 
+src  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <script src="./assets/js/questions.js"></script>
+   <script src="./assets/js/app.js"></script>
+</body>
 </html>
