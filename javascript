@@ -15,7 +15,7 @@ const quizQuestions = [
     {
     
         question        : "a v8 stands for ",
-        choices : ["Piston", "Drive shaft", "cylinder"]
+        choices : ["8Piston", "8Drive shaft", "8cylinder"]
     },
         correct_answer  : "8 cyliners",
         
